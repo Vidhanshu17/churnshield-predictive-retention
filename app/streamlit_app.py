@@ -8,12 +8,12 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
 
 st.set_page_config(
-    page_title="Customer 360 AI | Decision Intelligence",
+    page_title="ChurnShield | Predictive Retention",
     page_icon="📊",
     layout="wide",
 )
 
-st.title("Customer 360° AI Decision Intelligence")
+st.title("ChurnShield")
 st.caption("Customer analytics • Churn intelligence • Revenue insights")
 
 DATABASE_URL = os.getenv("DATABASE_URL")
