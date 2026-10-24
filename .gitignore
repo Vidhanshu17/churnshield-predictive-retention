@@ -1,0 +1,31 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.streamlit/secrets.toml
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+exports/*
+!exports/.gitkeep
+*.joblib
+*.pkl
+
+# Local environment and secrets
+.env.*
+!.env.example
+
+# Generated reports and model artifacts
+reports/*
+!reports/.gitkeep
+models/*
+!models/.gitkeep
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
